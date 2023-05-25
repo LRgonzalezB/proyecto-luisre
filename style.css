@@ -1,0 +1,107 @@
+*{
+    background: #f3f5fc;
+    font-family: 'inter';
+    font-style: normal;
+    /*font-weight: 400;
+    font-size: 35px;
+    line-height: 60%;*/
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 15px;
+    width: 3%;
+}
+
+main {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+
+}
+
+.text-area{
+    border: none;
+    color: #0a3871;
+    margin-top: 100px;
+    text-transform: lowercase;
+
+}
+
+::placeholder {color: #0a3871;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.message {
+    background: white;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    position: fixed;
+    margin-top: 20px;
+    padding-left: 20px;
+    height: 70%;
+    width: 20%;
+}
+
+.message:focus{
+    outline: none;
+}
+
+.copy{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-top: 165%;
+    margin-left: 30%;
+}
+
+.info{
+    color: #495057;
+    font-size: 10px;
+    position: absolute;
+    margin-top: 15%;
+    left: 8%;
+}
+
+.buttons{
+    position: relative;
+    top: 43.2%;
+    right: 30%;
+}
+
+.encrypt {
+    background: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    padding: 15px;
+    
+
+}
+
+.decrypt {
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 10px;
+    
+}
+
+.name{
+    text-align: center;
+}

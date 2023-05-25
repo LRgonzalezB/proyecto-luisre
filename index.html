@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>desencriptador</title>
+</head>
+
+<header>
+    <img class="logo" src="imagenes/Vector.png" alt="logo de alura">
+</header>
+
+<body>
+    <main>
+        
+            <section>
+                <textarea class="text-area" cols="30" rows="10" placeholder="ingrese su texto aqui"></textarea>
+                <div>
+                    <h6 class="info">*solo letras minusculas y sin acentos</h6>
+                </div>
+                <div class="buttons">
+                    <button class="encrypt" onclick="buttonEncrypt()">encriptar</buton>
+                    <button class="decrypt" onclick="buttonDecrypt()">desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea  class="message" id="mensaje-textarea"></textarea>
+                <div>
+                    <button class="copy" onclick="copy()">copiar</button>
+                </div>
+            </section> 
+  
+    </main>
+    <footer class="name">
+        <p>© Copyright Luis Rene Gonzalez - 2023</p>
+    </footer>
+<script src="index.js"></script>
+</body>
+</html>
